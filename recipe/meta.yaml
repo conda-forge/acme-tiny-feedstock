@@ -1,5 +1,5 @@
 {% set name = "acme-tiny" %}
-{% set version = "5.0.2" %}
+{% set version = "5.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b3ce195583dc2f13a7c6fa90052f8ab349b232dbc267ad9cbf4728eaed84ddd8
+  sha256: 2d5eb807e25986aebda9b049d9d146f185bafead6efb1e8cc41d6b42b9bca63c
 
 build:
   number: 0
